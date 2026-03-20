@@ -91,26 +91,85 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    Posts
-  </h1>
-</header>
+<main class="main">
+<link rel="stylesheet" href="/css/custom.css">
+<div style="max-width: 900px; margin: auto;">
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">My Cybersecurity Journey
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>This blog documents my journey into cybersecurity.
-I will share:
-CTF writeups Linux tips Network security insights </p>
-  </div>
-  <footer class="entry-footer"><span title='2026-03-20 00:00:00 +0000 UTC'>March 20, 2026</span>&nbsp;·&nbsp;<span>Justus Kipchumba</span></footer>
-  <a class="entry-link" aria-label="post link to My Cybersecurity Journey" href="https://justokip.github.io/posts/first-post/"></a>
-</article>
+<h1 style="color:#00d9ff;">$ whoami</h1>
+<p id="typing"></p>
+
+<script>
+const text = "IT Support Specialist | Cybersecurity Enthusiast";
+let i = 0;
+
+function typeEffect() {
+  if (i < text.length) {
+    document.getElementById("typing").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(typeEffect, 40);
+  }
+}
+
+typeEffect();
+</script>
+<h2>Justus Kipchumba</h2>
+
+<p><strong>IT Support Specialist | Cybersecurity Enthusiast</strong></p>
+
+<hr>
+
+<h2>🧠 Career Objective</h2>
+<p>
+Cybersecurity-focused IT professional with hands-on experience in Linux, networking, and CTF challenges.
+Actively building skills in penetration testing, troubleshooting, and security analysis.
+</p>
+
+<hr>
+
+<h2>💼 Experience</h2>
+
+<div style="border:1px solid #00d9ff; padding:20px; border-radius:12px; background:#111;">
+<h3>🛡️ CTF Practice</h3>
+<p>Hands-on experience solving web, network, and binary challenges.</p>
+</div>
+
+<div style="border:1px solid #00d9ff; padding:20px; border-radius:12px; background:#111;">
+<h3>💻 IT Support</h3>
+<p>System troubleshooting, Linux administration, and networking support.</p>
+</div>
+
+<hr>
+
+<h2>🚀 Projects</h2>
+
+<ul>
+<div style="border:1px solid #00d9ff; padding:15px; border-radius:10px;">
+<h3>🔍 Network Scanning with Nmap</h3>
+<p>
+Performed host discovery, port scanning, and service enumeration to identify exposed services and potential attack surfaces.
+</p>
+</div>
+<li>Linux System Enumeration</li>
+<li>Web Application Testing (SQLi, fuzzing)</li>
+<li>Hospital Management System</li>
+</ul>
+
+<hr>
+
+<h2>📬 Contact</h2>
+
+<p>Email: justuskipchumba29@gmail.com</p>
+<p>GitHub: https://github.com/Justokip</p>
+
+<br>
+
+<a href="/cv.pdf" style="background:#00d9ff; padding:10px; border-radius:8px; text-decoration:none;">
+Download CV
+</a>
+
+</div>
+
+
     </main>
     
 <footer class="footer">
