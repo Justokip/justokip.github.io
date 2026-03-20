@@ -95,6 +95,22 @@
 <div style="max-width: 900px; margin: auto;">
 
 <h1 style="color:#00d9ff;">$ whoami</h1>
+<p id="typing"></p>
+
+<script>
+const text = "IT Support Specialist | Cybersecurity Enthusiast";
+let i = 0;
+
+function typeEffect() {
+  if (i < text.length) {
+    document.getElementById("typing").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(typeEffect, 40);
+  }
+}
+
+typeEffect();
+</script>
 <h2>Justus Kipchumba</h2>
 
 <p><strong>IT Support Specialist | Cybersecurity Enthusiast</strong></p>
@@ -126,7 +142,12 @@ Actively building skills in penetration testing, troubleshooting, and security a
 <h2>🚀 Projects</h2>
 
 <ul>
-<li>Network Scanning using Nmap</li>
+<div style="border:1px solid #00d9ff; padding:15px; border-radius:10px;">
+<h3>🔍 Network Scanning with Nmap</h3>
+<p>
+Performed host discovery, port scanning, and service enumeration to identify exposed services and potential attack surfaces.
+</p>
+</div>
 <li>Linux System Enumeration</li>
 <li>Web Application Testing (SQLi, fuzzing)</li>
 <li>Hospital Management System</li>
