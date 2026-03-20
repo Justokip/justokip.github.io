@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Justus Kipchumba</title>
+    <link>https://justuskipchumba.github.io/</link>
+    <description>Recent content on Justus Kipchumba</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://justuskipchumba.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Cybersecurity Journey</title>
+      <link>https://justuskipchumba.github.io/posts/first-post/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://justuskipchumba.github.io/posts/first-post/</guid>
+      <description>&lt;p&gt;This blog documents my journey into cybersecurity.&lt;/p&gt;
+&lt;p&gt;I will share:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CTF writeups&lt;/li&gt;
+&lt;li&gt;Linux tips&lt;/li&gt;
+&lt;li&gt;Network security insights&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

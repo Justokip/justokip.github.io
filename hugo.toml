@@ -1,0 +1,23 @@
+baseURL = "https://justuskipchumba.github.io/"
+title = "Justus Kipchumba"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  author = "Justus Kipchumba"
+  description = "Cybersecurity | Linux | Networking | CTF Writeups"
+
+[params.profileMode]
+  enabled = true
+  title = "Justus Kipchumba"
+  subtitle = "Cybersecurity Enthusiast | Network Security | Linux | CTF Player"
+
+[[params.profileMode.buttons]]
+  name = "Blog"
+  url = "/posts"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/Justokip"
