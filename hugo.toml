@@ -7,17 +7,35 @@ theme = "PaperMod"
 
 [params]
   author = "Justus Kipchumba"
-  description = "Cybersecurity | Linux | Networking | CTF Writeups"
+  defaultTheme = "dark"
 
 [params.profileMode]
   enabled = true
   title = "Justus Kipchumba"
-  subtitle = "Cybersecurity Enthusiast | Network Security | Linux | CTF Player"
+
+  subtitle = """
+$ whoami
+Justus Kipchumba
+
+$ role
+IT Support Specialist | Cybersecurity Enthusiast | Network Security | Linux | CTF Player
+
+$ skills
+Linux | Networking | Troubleshooting | Nmap | Security Analysis
+"""
 
 [[params.profileMode.buttons]]
   name = "Blog"
   url = "/posts"
 
-[[params.socialIcons]]
-  name = "github"
+[[params.profileMode.buttons]]
+  name = "GitHub"
   url = "https://github.com/Justokip"
+
+[[params.profileMode.buttons]]
+  name = "Email"
+  url = "mailto:justuskipchumba29@gmail.com"
+
+[[params.profileMode.buttons]]
+  name = "Download CV"
+  url = "/Justus Kipchumba Resume..pdf"
